@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button1 a{
+    text-decoration: none;
+    text-decoration-color: black;
+}
+.button1{
+    width: 20%;
+    height: 30px;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    animation: pa1 1s ease-in;
+}
+.button1:hover{
+    border: 1.5px white solid;
+    color: white;
+    background-color: black;
+}
+.secation3{
+    color: white;
+    margin-left: 90px;
+    animation: sec4 0.5s ease-in-out;
+}
+.h12{
+    margin-right: 30px;
+    border: 2px white solid;
+    text-align: center;
+}
+.ul3  {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    list-style-type: none;
+}
+.ul2{
+    margin:20px 40px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    display: none;
+    margin-left: 60px;
+}
+.contactus1:hover .ul2{
+display: block;
+
+}
+.ul2 li{
+    margin-bottom: 10px;
+}
+
+
+.main{
+    background-image: url("back.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.img1{
+    width: 70px;
+    height: 70px;
+    
+}
+
+.navbar1{
+    animation: navq 1s ease-in;
+    display: flex;
+    justify-content: space-between; 
+}
+@keyframes navq{
+    from{
+        transform: translatey(-100%);
+    }to{
+        transform: translatey(0%);
+    }
+}
+.ul1{
+   
+    display: flex;
+    margin: 20px 30px;
+    list-style-type: none;
+    color: white;
+}
+.ul1 li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+}
+.secation2{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+    color: white;
+}
+.div1{
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    animation: prad 1s ease-in;
+}
+
+@keyframes prad{
+    from{
+        transform: translateX(-100%);
+    }to{
+        transform: translatex(0);
+    }
+}
+
+.img2{
+    margin-top: -10rem;
+    margin-right: 90px;
+    width: 30%;
+    height: 150%;
+    animation: image 1.5s ease-in;
+}   
+@keyframes image{
+    from{
+        transform: translateX(-100%);
+    }to{
+        transform: translateX(0%);
+    }
+}
+.pa{
+    margin-top: -15rem;
+    animation: pa1 1s ease-in;
+}
+@keyframes pa1 {
+    from{
+        transform: translatey(-100%);
+    }to{
+        transform: translatey(0%);
+    } 
+}
+.button2 a{
+    text-decoration: none;
+}
+.button2{
+    width: 20%;
+    height: 30px;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+.button2:hover{
+    border: 1px white solid;
+    color: white;
+    background-color: black;
+}
+.secation4{
+    color: white;
+    margin-left: 90px;
+    animation: sec4 1s ease-in-out;
+}
+@keyframes sec4{
+    from{
+        transform: translatex(-100%);
+    }to{
+        transform: translatex(0%);
+    }
+}
+.h13{
+    margin-right: 30px;
+    border: 2px white solid;
+    text-align: center;
+}
+.ul4{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    list-style-type: none;
+}
+.secation5{
+    color: white;
+    margin-left: 90px;
+    animation: sec4 1.5s ease-in-out;
+}
+.h14{
+    margin-right: 30px;
+    border: 2px white solid;
+    text-align: center;
+}
+.ul5{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    list-style-type: none;
+}
+.secation6{
+    color: white;
+    margin-left: 90px;
+    animation: sec4 2s ease-in-out;
+}
+.h15{
+    margin-right: 30px;
+    border: 2px white solid;
+    text-align: center;
+}
+.ul6{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    list-style-type: none;
+}
+.li1{
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: larger;
+}
+.button4 a{
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration-color: black;
+}
+.button4{
+    width: 20%;
+    height: 30px;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -9px;
+    margin-bottom: 15px;
+}
+.button4:hover{
+    border: 1.5px white solid;
+    color: white;
+    background-color: black;
+}
+.div4{
+   text-align: center;
+}
